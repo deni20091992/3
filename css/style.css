@@ -8,7 +8,7 @@ body {
     background-size: cover;
 }
 
-.lens {
+.ribbons {
     background: url("../images/lenta.png") no-repeat;
     background-size: 93%;
 }
@@ -58,26 +58,30 @@ header {
     background-size: 100%;
     display: flex;
     justify-content: center;
-    padding-top: 1%;
-    padding-left: 16%;
+    padding-top: 1vw;
+    padding-left: 16vw;
+}
+.phone {
+    color:#ffffff;
+    font-size: 1.6vw;"
 }
 
 .ozon {
     width: 10%;
     height: 10%;
-    padding-right: 5%;
+    padding-right: 4vw;
 }
 
 .daripodarki {
     width: 10%;
     height: 10%;
-    padding-right: 5%;
+    padding-right: 4vw;
 }
 
 .vk-birthday {
     background-color: #ffffff;
     border-radius: 10vw;
-    padding: 1%;
+    padding: 1vw;
     width: 25%;
     margin: 3vw auto;
 }
@@ -90,7 +94,7 @@ header {
     float: left;
     border-radius: 10vw;
     width: 15%;
-    padding-right: 2%;
+    padding-right: 0.5vw;
 }
 
 .her-wish {
@@ -116,10 +120,10 @@ option {
 }
 
 .button1 {
-    color: #fff;
+    color: #ffffff;
     font-size: 2vw;
-    padding: 1%;
-    border-radius: 100px;
+    padding: 1vw;
+    border-radius: 10vw;
     background: url("../images/button.png")  #ffcf3f no-repeat;
     background-size: 100%;
     border-bottom: 0.1vh solid #b25400;
@@ -131,10 +135,10 @@ option {
 }
 
 .button2 {
-    color: #fff;
+    color: #ffffff;
     font-size: 1.5vw;
-    padding: 2%;
-    border-radius: 100px;
+    padding: 1vw;
+    border-radius: 10vw;
     background: url("../images/button2.png") #ffcf3f no-repeat;
     background-size: cover;
     border-bottom: 0.1vh solid #b25400;
@@ -152,7 +156,7 @@ option {
     border-radius: 10vw;
     background: url("../images/button3.png") #22a2e9 no-repeat;
     background-size: cover;
-    padding: 8%;
+    padding: 1.2vw 7vw;
     border-top: none;
     border-left: none;
     border-bottom: 0.4vh solid #004595;
@@ -205,7 +209,7 @@ option {
 }
 
 .card-foto {
-    margin-left: 10%;
+    margin: auto;
     width: 80%;
 }
 
