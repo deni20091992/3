@@ -1,0 +1,339 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: url("../images/ozon.jpg") no-repeat;
+    background-size: cover;
+}
+
+.lens {
+    background: url("../images/lenta.png") no-repeat;
+    background-size: 93%;
+}
+
+h1 {
+    color: #fa9700;
+    font-size: 3vw;
+    text-align: center;
+    padding: 2vw;
+}
+h2 {
+    font-size: 2.5vw;
+    text-align: center;
+    color: #ffffff;
+    padding: 3vw;
+}
+
+h3 {
+    font-size: 2vw;
+    text-align: center;
+    color: #fff;
+}
+
+p {
+    color: #ffffff;
+    font-size: 1.5vw;
+}
+
+a {
+    text-decoration: none;
+}
+
+table {
+    width: 70%;
+    margin: auto;
+    font-size:1.5vw ;
+    padding-bottom: 3vw;
+}
+
+td {
+    padding: 1vw;
+    border-top: 0.1vw solid #5cc5f0;
+}
+
+header {
+    background: url("../images/header-flags.png") no-repeat;
+    background-size: 100%;
+    display: flex;
+    justify-content: center;
+    padding-top: 1%;
+    padding-left: 16%;
+}
+
+.ozon {
+    width: 10%;
+    height: 10%;
+    padding-right: 5%;
+}
+
+.daripodarki {
+    width: 10%;
+    height: 10%;
+    padding-right: 5%;
+}
+
+.vk-birthday {
+    background-color: #ffffff;
+    border-radius: 10vw;
+    padding: 1%;
+    width: 25%;
+    margin: 3vw auto;
+}
+
+.friend p{
+    color: #000000;
+}
+
+.foto-friend {
+    float: left;
+    border-radius: 10vw;
+    width: 15%;
+    padding-right: 2%;
+}
+
+.her-wish {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    align-items: center;
+    margin: auto;
+    text-align: center;
+}
+
+select {
+    size: 2vw;
+    font-size: 2vw;
+    background: url("../images/list_box.png") #f2f2f2 no-repeat;
+    background-size: cover;
+    border-radius: 10vw;
+    padding-right: 1vw;
+}
+
+option {
+    font-size: 2vw;
+}
+
+.button1 {
+    color: #fff;
+    font-size: 2vw;
+    padding: 1%;
+    border-radius: 100px;
+    background: url("../images/button.png")  #ffcf3f no-repeat;
+    background-size: 100%;
+    border-bottom: 0.1vh solid #b25400;
+    border-right: 0.4vh solid #b25400;
+    border-top: none;
+    border-left: none;
+    box-shadow: 0 0.7vw 0.5vw rgba(0,0,0,0.6);
+    margin:2vw auto ;
+}
+
+.button2 {
+    color: #fff;
+    font-size: 1.5vw;
+    padding: 2%;
+    border-radius: 100px;
+    background: url("../images/button2.png") #ffcf3f no-repeat;
+    background-size: cover;
+    border-bottom: 0.1vh solid #b25400;
+    border-right: 0.4vh solid #b25400;
+    border-top: none;
+    border-left: none;
+    box-shadow: 0 0.7vw 0.5vw rgba(0,0,0,0.6);
+    width: 33%;
+}
+
+.button3 {
+    color: #fff;
+    font-size: 1.5vw;
+    font-weight: bold;
+    border-radius: 10vw;
+    background: url("../images/button3.png") #22a2e9 no-repeat;
+    background-size: cover;
+    padding: 8%;
+    border-top: none;
+    border-left: none;
+    border-bottom: 0.4vh solid #004595;
+    border-right: 0.4vh solid #004595;
+    box-shadow: 0 0.7vw 0.5vw rgba(0,0,0,0.6);
+}
+
+.conten-why {
+    background: url("../images/phone_why.png") no-repeat;
+    background-size: 100%;
+    width: 60%;
+    margin: -8vw auto 0 auto;
+}
+
+.why, .how-image {
+    justify-content: space-around;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.foto-why {
+    border-radius: 100px;
+    width: 15%;
+    box-shadow: 0 0.7vw 0.5vw rgba(194,220,251,0.7);
+}
+
+.why-text, .how-text {
+    display: flex;
+    justify-content: space-around;
+}
+
+.why-text p {
+    color: #000;
+    width: 25%;
+    text-align: center;
+    font-size: 1.2vw;
+    padding: 1vw;
+}
+
+.card {
+    background: url("../images/fon_card.png") no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #fff;
+    width: 60%;
+    margin: -0.5vw auto 0 auto;
+}
+
+.card-foto {
+    margin-left: 10%;
+    width: 80%;
+}
+
+.how {
+    background: url("../images/fon_how.png") no-repeat;
+    background-size: cover;
+    width: 60%;
+    margin: auto;
+}
+.how-text p {
+    color: #000;
+    text-align: center;
+    font-size: 1.2vw;
+}
+
+ul {
+    font-size: 1.2vw;
+    padding-left: 4vw;
+}
+
+li {
+    color: #ff7200;
+}
+
+li span {
+    color: #000;
+}
+
+.how1 {
+    width: 33%;
+    padding: 2vh;
+}
+
+.bt {
+    background: url("../images/fon_how_bt.png") no-repeat;
+    background-size: cover;
+}
+
+.bow {
+    height: 15vw;
+    background: url("../images/bant.png") no-repeat;
+    background-size: 100%;
+    position: relative;
+    width: 60%;
+    margin: -5vw auto -10vw auto;
+}
+
+.sert {
+    background: url("../images/fon_sert.png") no-repeat;
+    background-size: cover;
+    width: 60%;
+    margin: auto;
+    padding-top: 3vw;
+    border-radius: 0 0 2vw 2vw;
+}
+
+.sert-content {
+    display: flex;
+    justify-content: center;
+    width: 60%;
+    margin: auto;
+}
+
+.purchase {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.button-bt {
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 4vw;
+}
+
+.button1:active {
+    border: 0.1vh;
+}
+
+.button2:active {
+    border: 0.1vh;
+}
+
+.button3:active {
+    border: 0.1vh;
+}
+
+footer {
+    width: 50%;
+    text-align: center;
+    margin: auto;
+}
+
+footer p {
+    font-size: 1vw;
+}
+
+.online {
+    display: flex;
+    position: fixed;
+    right: 0;
+    top: 60vh;
+    z-index: 99999;
+    background-color: #fff;
+    border-radius: 100px 0 0 100px;
+    font-size: 0.01vw;
+    height: 10%;
+    width: 5%;
+}
+
+.online:hover {
+    font-size: 1.5vw;
+    width: 15vw;
+}
+.balls-1 {
+    background: url("../images/shar1.png") no-repeat right;
+    height: 15vw;
+    background-size: 15%;
+    width: 85%;
+    margin-top: -6vw;
+}
+.balls-2 {
+    background: url("../images/shar2.png") no-repeat left;
+    height: 18vw;
+    background-size: 25%;
+    width: 76%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -15vw;
+    margin-bottom: -4vw;
+}
