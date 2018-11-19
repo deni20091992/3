@@ -66,6 +66,12 @@ header {
     font-size: 1.6vw;"
 }
 
+.fulfill-her-wish {
+    color: #ffea00;
+    font-size: 5vw;
+    font-weight: bold;
+}
+
 .ozon {
     width: 10%;
     height: 10%;
@@ -297,7 +303,7 @@ footer p {
     font-size: 1vw;
 }
 
-.online {
+.online-consultant {
     display: flex;
     position: fixed;
     right: 0;
@@ -310,7 +316,7 @@ footer p {
     width: 5%;
 }
 
-.online:hover {
+.online-consultant:hover {
     font-size: 1.5vw;
     width: 15vw;
 }
