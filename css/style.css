@@ -164,7 +164,6 @@ select {
     border-bottom: 0.4vh solid #004595;
     border-right: 0.4vh solid #004595;
     box-shadow: 0 0.7vw 0.5vw rgba(0,0,0,0.6);
-    font-weight: bold;
 }
 .buy-certificate:active, .buy-certificate-now:active, .test-certificate-by:active {
     border-right: 0.1vw;
@@ -327,10 +326,7 @@ footer p {
     height: 18vw;
     background-size: 25%;
     width: 76%;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: -15vw;
-    margin-bottom: -4vw;
+    margin: -15vw auto -4vw auto;
 }
 
 @media screen and (max-width: 600px){
@@ -345,20 +341,25 @@ footer p {
     .vk-birthday {
         width:45%;
     }
+
     .table1, .her-wish, .conten-why, .card, .how, .card-foto, .sert, .bow, footer  {
         width: 95%;
     }
+
     .balls-1, .balls-2 {
         width: 100%;
 
     }
+
     footer p {
         font-size: 2vw;
     }
+
     .online-consultant:hover {
         height: 8em;
         width: 20em;
     }
+
     .buy-certificate, .buy-certificate-now, .test-certificate-by {
         font-size: 3vw;
     }
