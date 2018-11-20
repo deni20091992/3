@@ -285,7 +285,8 @@ li span {
 .order-certificate {
     display: flex;
     justify-content: space-around;
-    padding-bottom: 4vw;
+    padding-bottom: 8vw;
+
 }
 
 footer {
@@ -308,6 +309,8 @@ footer p {
     border-radius: 100px 0 0 100px;
     font-size: 0.01vw;
     width: 5%;
+    height: 8%;
+    padding-right: 2vw;
 }
 
 .online-consultant:hover {
@@ -355,9 +358,15 @@ footer p {
         font-size: 2vw;
     }
 
+    .online-consultant {
+        padding-right: 3vw;
+
+    }
     .online-consultant:hover {
         height: 8em;
         width: 20em;
+        padding: 0;
+        margin: 0;
     }
 
     .buy-certificate, .buy-certificate-now, .test-certificate-by {
